@@ -3,7 +3,7 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'package:http/http.dart' as http;
-import 'package:news/src/service/models/APiModelsServices.dart';
+import 'package:news/models/APiModelsServices.dart';
 
 class NewsApiService {
   // Yeh function API se news fetch karega

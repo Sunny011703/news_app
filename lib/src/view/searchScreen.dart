@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:news/src/service/ApiService.dart';
-import 'package:news/src/service/models/APiModelsServices.dart';
+import 'package:news/models/APiModelsServices.dart';
 import 'package:news/src/view/NewsDetailsScreen.dart';
 import 'package:shimmer/shimmer.dart'; // ✅ Import shimmer package
 

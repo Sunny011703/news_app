@@ -2,7 +2,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:news/src/Personalization/UserProfile.dart';
-import 'package:news/src/controller/AnimatedBottomNavController.dart';
+import 'package:news/controller/AnimatedBottomNavController.dart';
 import 'package:news/src/view/LIveVideo.dart';
 import 'package:news/src/view/NewHomeScreen.dart';
 

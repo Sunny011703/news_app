@@ -45,6 +45,7 @@ dependencies:
   shimmer: ^3.0.0
   chewie: ^1.10.0
   video_player: ^2.9.3
+  flutter_slidable: ^4.0.0
   
 
 dev_dependencies:
