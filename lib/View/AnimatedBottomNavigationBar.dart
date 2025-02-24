@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:news/View/Personalization/UserProfile.dart';
 import 'package:news/ViewModels/AnimatedBottomNavController.dart';
-import 'package:news/View/view/LIveVideo.dart';
-import 'package:news/View/view/NewHomeScreen.dart';
+import 'package:news/View/screen/LIveVideo.dart';
+import 'package:news/View/screen/NewHomeScreen.dart';
 
 class AnimatedBottomNavigationBar extends StatelessWidget {
   AnimatedBottomNavigationBar({super.key});
