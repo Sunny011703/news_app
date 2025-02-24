@@ -26,7 +26,7 @@ class ButtomViewAll extends StatelessWidget {
       trailing: TextButton(
         onPressed: onPressed, // Jab button click hoga to yeh function chalega
         child: Text(
-          "View all",
+          "",
           style: GoogleFonts.poppins(
             fontSize: 12,
             fontWeight: FontWeight.w400, // Normal weight ka text

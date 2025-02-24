@@ -1,15 +1,14 @@
-import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:news/src/service/ApiService.dart';
+import 'package:get/get.dart';
+import 'package:news/models/service/ApiService.dart';
 import 'package:news/models/APiModelsServices.dart';
 
 class SearchController extends GetxController {
   final TextEditingController searchController = TextEditingController();
   final NewsApiService _newsApiService = NewsApiService();
-
-  var allNews = <Articles>[].obs; // ✅ RxList for reactivity
+  var allNews = <Articles>[].obs;
   var filteredNews = <Articles>[].obs;
-  var isLoading = true.obs; // ✅ Reactive loading state
+  var isLoading = true.obs;
 
   @override
   void onInit() {
@@ -31,8 +30,9 @@ class SearchController extends GetxController {
     }
 
     filteredNews.assignAll(
-      allNews.where((article) =>
-          article.title!.toLowerCase().contains(query.toLowerCase())),
+      allNews.where(
+        (article) => article.title!.toLowerCase().contains(query.toLowerCase()),
+      ),
     );
   }
 }

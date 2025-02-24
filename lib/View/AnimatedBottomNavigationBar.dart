@@ -1,10 +1,10 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:news/src/Personalization/UserProfile.dart';
-import 'package:news/controller/AnimatedBottomNavController.dart';
-import 'package:news/src/view/LIveVideo.dart';
-import 'package:news/src/view/NewHomeScreen.dart';
+import 'package:news/View/Personalization/UserProfile.dart';
+import 'package:news/ViewModels/AnimatedBottomNavController.dart';
+import 'package:news/View/view/LIveVideo.dart';
+import 'package:news/View/view/NewHomeScreen.dart';
 
 class AnimatedBottomNavigationBar extends StatelessWidget {
   AnimatedBottomNavigationBar({super.key});

@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:news/src/AnimatedBottomNavigationBar.dart';
+import 'package:news/View/AnimatedBottomNavigationBar.dart';
 
 
 void main() {

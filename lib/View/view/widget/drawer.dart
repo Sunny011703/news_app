@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/get_core.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:news/src/Personalization/UserProfile.dart';
+import 'package:news/View/Personalization/UserProfile.dart';
 
 class DRAWERWIDGET extends StatelessWidget {
   const DRAWERWIDGET({
