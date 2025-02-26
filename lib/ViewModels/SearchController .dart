@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:news/models/service/ApiService.dart';
+import 'package:news/service/ApiService.dart';
 import 'package:news/models/APiModelsServices.dart';
 
 class SearchController extends GetxController {

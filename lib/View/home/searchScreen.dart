@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:news/models/service/ApiService.dart';
+import 'package:news/service/ApiService.dart';
 import 'package:news/models/APiModelsServices.dart';
-import 'package:news/View/screen/NewsDetailsScreen.dart';
+import 'package:news/View/home/NewsDetailsScreen.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:flutter_slidable/flutter_slidable.dart'; // ✅ Import flutter_slidable
 
